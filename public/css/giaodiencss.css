@@ -65,6 +65,10 @@ body{
   font-size: 25px;
 }
 
+.large_title svg{
+  width: 5%;
+}
+
 .small_title{
   padding: 5px;
   text-align: center;
@@ -111,7 +115,7 @@ body{
 
 .info_detail{
   display: flex;
-  height: 45vh;
+  /* height: 45vh; */
   width: auto;
   background-color: white;
   padding: 5px 5px 5px 40px;
@@ -174,6 +178,16 @@ body{
   text-decoration: none;
 }
 
+.label_menu > svg {
+  width: 50%;
+}
+
+.label_menu > svg{
+  width: 15%;
+}
+
+
+
 .label_menu  ul li a:visited{
   color: white;
 }
@@ -198,6 +212,7 @@ body{
 }
 
 .label_menu > .v{
+  width: 9%;
   margin: 3px;
 }
 
