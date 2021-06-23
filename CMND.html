@@ -13,12 +13,23 @@
     <!-- Phần header bao gồm ảnh logo , và trường select bên trái, button đăng nhập và thử miễn phí bên phải -->
     <div class="header">
         <img  src="public/logo.jpg" alt="">
-        <select class="type_card"name="" id="">
-            <option value="">----Chọn loại giấy----</option>
-            <option value="">Giấy phép lái xe</option>
-            <option value="">Thẻ sinh viên</option>
-            <option value="">Chứng minh nhân dân</option>
-        </select>
+
+        <!-- Chọn loại thẻ -->
+        <div class="type_card">
+            <div class="label_menu">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" fill="#000"><path d="M11,13 L11,20 L4,20 L4,13 L11,13 Z M20,13 L20,20 L13,20 L13,13 L20,13 Z M10,14 L5,14 L5,19 L10,19 L10,14 Z M19,14 L14,14 L14,19 L19,19 L19,14 Z M11,4 L11,11 L4,11 L4,4 L11,4 Z M20,4 L20,11 L13,11 L13,4 L20,4 Z M10,5 L5,5 L5,10 L10,10 L10,5 Z M19,5 L14,5 L14,10 L19,10 L19,5 Z"></path></svg>
+                <label > Chọn loại giấy tờ</label>
+                <svg class="v" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><path d="M6 7.494L11.392 3l.608.729-6 5-6-5L.608 3z"></path></svg>
+                <ul class="menu">
+                    <li><a href="TSV.html">Thẻ sinh viên</a></li>
+                    <li><a href="GLPX.html">Giấy phép lái xe</a></li>
+                    <li><a href="CMND.html">Chứng minh nhân dân</a></li>
+                    
+                   
+                </ul>
+            </div>
+            
+        </div>
         <button class="log_in">Đăng nhập</button>
     </div>
 
@@ -72,7 +83,7 @@
 
         <div class="output_form">
             <div class="output_form_1">
-                <h2 class="title">Thông tin trên giấy</h2>
+                <h2 class="title">Thông tin trên Chứng minh nhân dân</h2>
                 <div class="info_detail">
                     
                     <div class="row id">
